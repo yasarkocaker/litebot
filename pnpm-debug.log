@@ -1,0 +1,85 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        bot.js: "0.0.1"
+        build.js: "^0.3.0"
+        canvas: "^2.6.1"
+        chalk: "^4.1.0"
+        common-tags: "^1.8.0"
+        croxy-api: "^2.0.6"
+        dependencies: "0.0.1"
+        discord.js: "^12.5.1"
+        discord.js-commando: "^0.12.0"
+        express: "^4.17.1"
+        figlet: "^1.5.0"
+        fs: "^0.0.2"
+        helpers.js: "^1.0.0"
+        i: "^0.3.6"
+        index.js: "0.0.3"
+        isgd: "^1.1.3"
+        jimp: "^0.16.1"
+        loader.js: "^4.7.0"
+        math-expression-evaluator: "^1.3.7"
+        moment: "^2.29.1"
+        moment-duration-format: "^2.3.2"
+        ms: "^2.1.3"
+        node-modules: "^1.0.1"
+        node-superfetch: "^0.1.11"
+        parse-ms: "^2.1.0"
+        quick.db: "^7.1.3"
+        random-puppy: "^1.1.0"
+        request: "^2.88.2"
+        snekfetch: "^4.0.4"
+        sozluk-api: "^1.0.2"
+        steam-provider: "^0.3.2"
+        tcmb-doviz: "^1.0.6"
+        useful-tools: "^0.2.6"
+        user-instagram: "^2.1.9"
+        util.js: "0.0.0"
+        weather-js: "^2.0.0"
+        weather.js: "^0.1.0"
+        x: "^0.1.2"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "a10a207a5741c2ebde9887cb681c95fec0c4e134"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving bot.js that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/bot.js"
+      dest: "/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/.ignored/bot.js"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/bot.js' -> '/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/.ignored/bot.js'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/bot.js' -> '/rbd/pnpm-volume/0e850351-9ad0-4a83-9dc2-99842e877a64/node_modules/.ignored/bot.js'"
